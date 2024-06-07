@@ -1,0 +1,17 @@
+~ start
+
+if NavMan.ice == false:
+	The Rat: Hey you, yeah you. You don't look like you're from around these parts.
+	The Rat: Death must've summoned another pet huh. 
+	The Rat: You all want the same thing, to go home am I right?
+	Gato: yeah
+	The Rat: Well I can help you, for a price
+	The Rat: I know you need the summoning salt to get out of here. It just so happens I have some lying around.
+	Gato: May I have some
+	The Rat: Don't push your luck kid. My rat friends live in the walls, they've been watching you.
+	The Rat: I know what you can do with those ghost powers of yours.
+	The Rat: As you can see the chese next to me is melting from the fireplace heat, I can't leave or else he'll spot me
+	The Rat: If you can find somewhere cool to store this cheese that's not in the kitchen then we have a deal
+else:
+	The Rat: Thanks for the ice kid, the salt is already in the summoning room
+=> END

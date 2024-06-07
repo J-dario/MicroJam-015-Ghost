@@ -1,0 +1,9 @@
+~ start
+
+if NavMan.property != "Fire":
+	Gato: I wonder what's behind this barrier??
+else:
+	Gato: Let's burn this thing down!
+	set NavMan.open = true
+
+=> END

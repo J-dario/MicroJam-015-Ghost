@@ -1,0 +1,32 @@
+~ Fire
+
+if NavMan.property == "Fire":
+	Gato: Hot! Hot! Hot!
+elif NavMan.property != "Base":
+	Gato: I can't die twice can I?
+else:
+	Gato: That fire is roaring.
+	Gato: I feel like I chould get a bit closer.
+	set NavMan.property = "Fire"
+
+=> END
+
+~ Death
+
+if NavMan.property == "Base":
+	Death: Hello Gato are you ready to stay with me forever?
+	- Yes
+		set NavMan.stay = true
+		Death: YIPPEEE!!!
+		Death: We're gonna be best friends for all eternity!!!
+	- No
+		Death: Oh...
+elif NavMan.property != "Base":
+	Death: Oh you died? Let me fix you right up.
+	set NavMan.property = "Base"
+else:
+	Gato: That fire is roaring.
+	Gato: I feel like I chould get a bit closer.
+	set NavMan.property = "Fire"
+
+=> END

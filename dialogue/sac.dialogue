@@ -1,0 +1,28 @@
+~ lec
+
+if NavMan.read == false:
+	Gato: Woah! A spell tome! Maybe I can find a way home!
+	Gato: Let's see here...
+	Gato: Ah I see, to reverse the summoning spell I need:
+		6 Lit candles, The Magic Words, and Summoning Salt
+	Gato: I hope Death has those lying around somewhere...
+	set NavMan.read = true
+else:
+	Gato: Let's see...
+	if NavMan.fire == true and NavMan.elec == true and NavMan.ice == true:
+		Gato: Looks like I have everything to start!
+		if NavMan.property != "Base":
+			Gato: I should probably be in my original body before leaving
+		else:
+			Gato: Okay, candles lit, magic circle on the floor, all that's left is to say the magic words...
+			Gato: Death Is Not The End!
+			set NavMan.leave = true
+	else:
+		Gato: It looks like I still need:
+		if NavMan.fire == false:
+			to light the candles, 
+		if NavMan.elec == false:
+			to find the magic words, 
+		if NavMan.ice == false:
+			to get summoning salt
+=> END

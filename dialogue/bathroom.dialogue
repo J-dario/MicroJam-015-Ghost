@@ -1,0 +1,7 @@
+~ start
+
+if NavMan.property != "Ice":
+	Gato: Hey the water works maybe I can fill this thing up!
+else:
+	Gato: I can freeze water in here!
+=> END

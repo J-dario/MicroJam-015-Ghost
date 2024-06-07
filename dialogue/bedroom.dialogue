@@ -1,0 +1,10 @@
+~ pc
+
+if NavMan.property != "Elec":
+	Gato: Wow a PC! I wonder if he keeps his spells on this thing? It has no power though...
+if NavMan.property == "Elec":
+	Gato: Hey I think I can power this thing!
+	Gato: I got it! The magic words are Death Is Not The End
+	set NavMan.elec = true
+	
+=> END

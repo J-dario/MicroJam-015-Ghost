@@ -1,0 +1,35 @@
+~ bowl
+
+if NavMan.property != "Base":
+	Gato: Can ghosts even eat?
+else:
+	Gato: Is that...for me?
+
+=> END
+
+~ plug
+
+if NavMan.property == "Elec":
+	Gato: I feel so tingly!
+elif NavMan.property != "Base":
+	Gato: I can't die twice can I?
+else:
+	Gato: That plug is looking faulty.
+	Gato: What if I just touch it a little.
+	set NavMan.property = "Elec"
+	
+=> END
+
+~ fridge
+
+if NavMan.property == "Ice":
+	Gato: Brrrr... I'm Frozen
+elif NavMan.property != "Base":
+	Gato: I can't die twice can I?
+else:
+	Gato: That sure looks really cold.
+	Gato: I wonder what will happen if I stay inside it?
+	set NavMan.property = "Ice"
+	Gato: Oh.
+	
+=> END

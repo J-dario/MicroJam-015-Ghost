@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_12"
+type="Resource"
+uid="uid://bg67l3nvy2ath"
+path="res://.godot/imported/sac.dialogue-819b63af558aedf0f1b4b935260a5f49.tres"
+
+[deps]
+
+source_file="res://dialogue/sac.dialogue"
+dest_files=["res://.godot/imported/sac.dialogue-819b63af558aedf0f1b4b935260a5f49.tres"]
+
+[params]
+
+defaults=true
